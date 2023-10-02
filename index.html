@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Black+Ops+One&family=Poppins:wght@900&family=Skranji:wght@700&display=swap" rel="stylesheet">
+  
+</head>
+<body style="background: linear-gradient(30deg,#cd2ffc , #8d2ede  );">
+  <h1 class="game-name">bubble game</h1>
+  <div class="btn-container">
+    <button class="play-btn" type="submit">
+      play
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
+    <button class="rules-btn" onclick="rules()">rules</button>
+    <button hidden=""class="score-btn">score</button>
+  </div>
+  <div class="rules-container">
+    <div class="rules">
+    <span>1.</span>
+    <p>
+      at top left, there is a hit.
+      whenever you click the hit 
+      on the bubble , your score will
+      increase by 1.
+    </p>
+    <span>2.</span>
+    <p>
+      if you will click the wrong hit,
+      your score will decrease by 2 .
+    </p>
+    <Span>3. </Span>
+    <p>
+      time limit 30sec.
+      score more within the limit.
+    </p>
+    <button onclick="gotit()">got it</button>
+  </div>
+  </div>
+  
+  <script src="script.js" type="text/javascript" charset="utf-8"></script>
+  <script src="script2.js" type="text/javascript" charset="utf-8"></script>
+  <script src="dbscript.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
