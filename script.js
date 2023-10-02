@@ -98,6 +98,6 @@ function score_update(){
 
 document.querySelector(".continue-btn")
 .addEventListener("click", function() {
-  var url = "/index.html";
+  var url = "https://adwaith-anand-sr.github.io/bubbleGame/";
   window.location.href = url;
 })
