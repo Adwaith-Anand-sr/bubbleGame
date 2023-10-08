@@ -25,7 +25,7 @@ function getValues() {
 
 // =====set timeout======
 function timeout(){
-	var time =30;
+	var time =60;
 	var time_intervel=setInterval(function(){
 		if(time>0){
 			time--;
